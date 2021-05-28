@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'MainController@index')->name('main');
+
+Route::match(['get', 'post'], '/order-ok', 'MainController@form')->name('order_ok');
+Route::post('/sum', 'MainController@calculateSum')->name('sum');

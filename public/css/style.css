@@ -1,0 +1,43 @@
+#map {
+    margin-top: 15px;
+    height: 600px;
+}
+#price_sum {
+    display: none;
+}
+.modal-form {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 89px;
+    width: 400px;
+    top: 30px;
+    box-shadow: 0 0 7px;
+    border-radius: 2rem;
+    border: none;
+}
+
+.modal-form input {
+    border-radius: 2rem;
+}
+.modal-form input:focus {
+    border-color: #90b529;
+    box-shadow: 0 0 0 0.2rem rgba(144, 181, 41, 0.25);
+}
+.modal-form textarea:focus {
+    border-color: #90b529;
+    box-shadow: 0 0 0 0.2rem rgba(144, 181, 41, 0.25);
+}
+.modal-form button {
+    border-radius: 1rem;
+    background-color: #90b529;
+    border-color: #90b529;
+}
+.modal-form button:active, .modal-form button:hover {
+    background-color: #769b28;
+    border-color: #769b28;
+}
+.modal-form button:focus {
+    background-color: #769b28;
+    border-color: #769b28;
+    box-shadow: 0 0 0 0.2rem rgba(118, 155, 40, 0.25);
+}
